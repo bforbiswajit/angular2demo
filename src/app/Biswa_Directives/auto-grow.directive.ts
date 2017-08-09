@@ -8,7 +8,7 @@ import {Directive, ElementRef, Renderer} from '@angular/core';
     }
 })
 export class autoGrow {
-    constructor(private elemRef: ElementRef, private ren: Renderer) {
+    constructor(private elemRef: ElementRef, private ren: Renderer) {   //private means automatically create member variable
 
     }
 

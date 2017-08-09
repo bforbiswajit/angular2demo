@@ -3,7 +3,7 @@
 @Injectable()*/
 
 export class User {
-    readAll() : string[] {
-        return ["hi", "hello"];
+    readAll(){
+        return [{'name': 'Biswajit', 'profile': 'premium'}, {'name': 'Anik', 'profile': 'basic'}];
     }
 }
